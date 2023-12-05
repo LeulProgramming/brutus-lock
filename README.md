@@ -3,7 +3,7 @@
 ## What is Brutus?
 Brutus is a way to ensure that one's property is safe and sound. It is a smart bike lock attachment that allows bikers to **elevate their confidence in the safety** of their mode of transportation with the ability to remotely monitor and secure their bikes.
 
-When someone is messing with the bike, the bike owner is alerted via push notifications and can then monitor their bike from a live video feed. This way, the owner can easily identify/describe a intruder if anything off the bike is stolen.
+When someone is messing with the bike, the vibration sensor detects movement, and the bike owner is alerted via push notifications and can then monitor their bike from a live video feed. This way, the owner can easily identify/describe a intruder if anything off the bike is stolen.
 
 One of hour biggest challenges was aquiring working hardware as all of the cellular ESP32s we ordered were malfunctioning. Therefore, we opted to build the product that connects to the app via Wifi. Future versions will deal with challenges faced in version one.
 
@@ -20,9 +20,9 @@ Features:
 
 Technology we used:
 * Software
-  * Arduino
-  * React Native
-  * Firebase
+  * Arduino      - to take in inputs from vibration sensors
+  * React Native - for the mobile application
+  * Firebase     - to store images/videos from the camera and vibration data and store login information
 * Hardware
   * ESP32
   * OV7670 Camera
@@ -36,7 +36,7 @@ Technology we used:
 
 
 ## Team Members
-* Tech Members
+* Tech Team
   * Leul Dagnachew
   * Zoya Farooqui
   * Nafee Karim
