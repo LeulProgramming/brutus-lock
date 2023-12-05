@@ -5,7 +5,7 @@ Brutus is a way to ensure that one's property is safe and sound. It is a smart b
 
 When someone is messing with the bike, the vibration sensor detects movement, and the bike owner is alerted via push notifications and can then monitor their bike from a live video feed. This way, the owner can easily identify/describe a intruder if anything off the bike is stolen.
 
-One of hour biggest challenges was aquiring working hardware as all of the cellular ESP32s we ordered were malfunctioning. Therefore, we opted to build the product that connects to the app via Wifi. Future versions will deal with challenges faced in version one.
+One of our biggest challenges was aquiring working hardware as all of the cellular ESP32s we ordered were malfunctioning. Therefore, we opted to build the product that connects to the app via Wifi. Future versions will deal with challenges faced in version one.
 
 ## About the Brutus Lock
 
